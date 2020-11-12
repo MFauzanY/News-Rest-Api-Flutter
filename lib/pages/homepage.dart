@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
                                 children: <Widget>[
                                   Text(formattedTime),
                                   Text(
-                                    article.title,
+                                    article.title.toString(),
                                     overflow: TextOverflow.ellipsis,
                                     style: TextStyle(
                                         fontSize: 20,
